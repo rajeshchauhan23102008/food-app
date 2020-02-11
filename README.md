@@ -1,4 +1,3 @@
-# Food App
-Food search, listing, pagination, detail and likes functionality.
+# Food App - https://the-food-app.netlify.com/
 
-https://the-food-app.netlify.com/
+Food search, listing, pagination, detail and likes functionality.
