@@ -2,14 +2,6 @@ svg {
   height: 20px;
   width: 20px;
 }
-.rounded-circle {
-  width: 100px;
-}
-
-.recipe-img {
-  width: 600px;
-  height: 500px;
-}
 
 .recipe-item {
   /* text-decoration:overline; */

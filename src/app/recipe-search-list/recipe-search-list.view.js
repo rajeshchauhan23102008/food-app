@@ -127,17 +127,19 @@ function displayRecipeList(recipesToDisplay) {
   for (let item of recipesToDisplay) {
     // console.log(item);
 
-    let recipeItemMarkup = `<li class="recipe-link media mb-5">
-    <img
+    let recipeItemMarkup = `<li class="p-3 recipe-link">
+    <a class="text-light media" href="#${item.idMeal}">
+    <div class="media-body ">
+     
+      <img
       class="align-self-center img-fluid rounded-circle"
       src="${item.strMealThumb}"
       alt="${item.strMeal}"
     />
-    <div class="media-body ">
-      <a class="text-light" href="#${item.idMeal}">
         <h6 class="">${item.strMeal}</h6>
-      </a>
+     
     </div>
+    </a>
   </li>`;
 
     DOMElements.recipeListEl.insertAdjacentHTML('beforeend', recipeItemMarkup);

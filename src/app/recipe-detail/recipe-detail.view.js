@@ -69,7 +69,7 @@ function getRecipeIngredientsMarkup(ingredients) {
         </h4>
       </div>
     </div>
-    <div class="row text-left">
+    <div class="row ml-1 text-left">
       <div class="col">
         <div class="recipe-ingredients">
           <ul
